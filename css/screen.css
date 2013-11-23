@@ -1,0 +1,270 @@
+
+* {
+  background-repeat: no-repeat;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+  background: pink;
+}
+
+section{
+    margin: 20px;
+}
+
+
+@media screen and (min-width: 800px) {
+  body {
+    background: white;
+  }
+}
+
+.nav-container {
+    background: rgba(255,255,255,.5);
+    width: 100%;
+    position: fixed;
+    height: 100px;
+}
+
+.picprofile img {width: 75px;
+    float:left;
+    border-radius:50%;
+    margin: 10px 40px;
+}
+
+.nav a {
+    float: right;
+    color: white;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-right: 20px;
+    letter-spacing: 1.5px;
+}
+
+.nav a:hover {
+    color: gray;
+    background: none;
+    padding-bottom: 10px;
+    border-bottom: 5px solid white;
+    text-decoration: none;
+}
+
+header{
+    width:100%;
+    margin:0, auto;
+}
+
+h3{
+    font-size: 20px;
+    color:white;
+    position: relative;
+    top: -15px;
+    left: -32px;
+}
+
+p{
+  font-size: 16px;
+  margin: 1px 0px 1px 0px;
+}
+
+
+a :hover{
+  background-color: gold;
+}
+
+.container{
+    height: 100%;
+    position: relative;
+    top:0;
+    left:0;
+    margin: 0px 40px;
+}
+
+.glyphicon-chevron-left{
+  color: white;
+  font-size: 2em;
+  float:left;
+  position: relative;
+  top: 17px;
+  left: -30px;
+}
+
+.loc-1{
+  float:left;
+  position: relative;
+  top: -15px;
+  left: 10%;
+  text-align: center;
+}
+
+.loc-2{
+  float:left;
+  position: relative;
+  top: -15px;
+  left: 30%;
+  text-align: center;
+}
+
+.loc-3{
+  float:left;
+  position: relative;
+  top: -15px;
+  left: -32px;
+  text-align: center;
+}
+
+.loc-4{
+  float:left;
+  position: relative;
+  top: -15px;
+  left: 20%;
+  text-align: center;
+}
+
+.loc-5{
+  float:left;
+  position: relative;
+  top: -15px;
+  left: 60%;
+  text-align: center;
+}
+
+.final-destination-2{
+  color: white;
+  float:right;
+  position: relative;
+  top: -16px;
+  left: 33px;
+  text-align: center;
+}
+
+.glyphicon-record{
+  color: white;
+  font-size: 1.75em;
+  float:left;
+ /* position: relative;
+  top: -15px;
+  left: 100px;*/
+}
+
+.final-destination{
+  color: white;
+  float:right;
+  position: relative;
+  top: -16px;
+  left: 33px;
+  text-align: center;
+}
+
+.timeline-nav {
+  margin:200px 30px;
+  width: 100%;
+}
+
+.timeline-nav-2{
+  margin:50px 30px;
+  width: 100%;
+}
+
+.timeline-line{
+  background: white;
+  height: 6px;
+  width: 100%;
+  float: left;
+}
+
+.timeline{
+    background:white;
+    height: 6px;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    left:30px;
+    top: 200px;
+    z-index:2;
+}
+
+.bg1{
+    background-image: url(../img/Moscow.jpg);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    overflow: auto;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+.clear{
+    clear:both;
+}
+
+th{
+  margin: 5px 2px 5px 2px;
+  width: auto;
+  height: auto;
+}
+
+.radio, .checkbox{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.white-space{
+  height:800px;
+  background-color:white;
+}
+
+
+/*SANDBOX//
+
+
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.EventBubble{position:absolute;
+            left: 470px;
+            width:130px;
+            top:0px;
+            font-size: 9px;
+            visibility: hidden;
+            text-align:center;
+            padding:2px;
+            background: blue;
+            opacity: 0;
+            transition: opacity 1s linear;
+        -webkit-transition: background-color 2s ease;
+            transition-delay: 2s;
+        -webkit-transition-delay: 2s;
+    }
+
+
+.partyinfo input:focus + .EventBubble {
+                visibility: visible;
+                opacity: 1;
+                background:gray;}
+            }
+*/
